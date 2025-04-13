@@ -10,3 +10,4 @@ statsmodels
 scipy
 scikit-learn
 openpyxl
+kaleido
