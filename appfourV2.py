@@ -1043,7 +1043,7 @@ with st.sidebar:
     </div>
                 
      ❤️ Support via Google Pay (UPI)
-    Scan the QR code below to send support:
+    Scan the QR code below to send support to recharge the OpenAI account for insight generation:
     """, unsafe_allow_html=True)
       # Load your uploaded QR code
     qr_image = Image.open("qr.jpg")
