@@ -128,7 +128,7 @@ def init_session_state():
     if 'report_type' not in st.session_state:
         st.session_state.report_type = "Standard"
     if 'api_key' not in st.session_state:
-        st.session_state.api_key = "sk-proj-5RDle9cBmr5VEN0EEISwT3BlbkFJWEzNqQfNfYY2ElAe65J3"  # Initialize with empty string or your API key
+        st.session_state.api_key = os.getenv("OPENAI_API_KEY", "")  # Initialize with empty string or your API key
     if 'color_theme' not in st.session_state:
         st.session_state.color_theme = "Blues"
     if 'advanced_options' not in st.session_state:
